@@ -118,7 +118,7 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/projects/f099cda9-30fa-4f15-a0a0-f6dbbe7636bb/files/05b382ce-83a3-4289-bc48-c2ffef1ea1e2.jpg" 
             alt="Background"
-            className="w-full h-full object-cover blur-md opacity-20"
+            className="w-full h-full object-cover blur-sm opacity-30"
           />
         </div>
         <div className="container mx-auto max-w-4xl relative z-10">
