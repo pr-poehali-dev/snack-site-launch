@@ -113,8 +113,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="delivery" className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto max-w-4xl">
+      <section id="delivery" className="py-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/f099cda9-30fa-4f15-a0a0-f6dbbe7636bb/files/05b382ce-83a3-4289-bc48-c2ffef1ea1e2.jpg" 
+            alt="Background"
+            className="w-full h-full object-cover blur-md opacity-20"
+          />
+        </div>
+        <div className="container mx-auto max-w-4xl relative z-10">
           <h2 className="text-4xl font-heading font-bold text-center text-foreground mb-12">Доставка</h2>
           <Card className="p-8">
             <div className="space-y-6">
