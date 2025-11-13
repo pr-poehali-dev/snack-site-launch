@@ -124,7 +124,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">География доставки</h3>
-                  <p className="text-muted-foreground">Осуществляем доставку по всему городу и области. Возможна организация выездного обслуживания.</p>
+                  <p className="text-muted-foreground">Доставляем по городу Мозырю. Возможна организация выездного обслуживания.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -132,8 +132,8 @@ const Index = () => {
                   <Icon name="Clock" size={24} className="text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-heading font-semibold mb-2">Время доставки</h3>
-                  <p className="text-muted-foreground">Доставка точно к назначенному времени. Минимальное время на подготовку заказа — 24 часа.</p>
+                  <h3 className="text-xl font-heading font-semibold mb-2">Время приготовления</h3>
+                  <p className="text-muted-foreground">Время приготовления заказа от 24 часов. Доставка точно к назначенному времени.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -142,7 +142,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-heading font-semibold mb-2">Условия</h3>
-                  <p className="text-muted-foreground">Бесплатная доставка при заказе от 10 000 ₽. Предоставляем всю необходимую посуду и сервировку.</p>
+                  <p className="text-muted-foreground">Для получения прайса на фуршеты переходите по ссылке в наш <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Instagram</a>.</p>
                 </div>
               </div>
             </div>
