@@ -5,13 +5,16 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   const galleryImages = [
     {
-      alt: "Элегантный фуршетный стол с закусками"
+      url: "https://cdn.poehali.dev/projects/f099cda9-30fa-4f15-a0a0-f6dbbe7636bb/files/da7b333e-6610-489a-8bee-51ec0e6ddc2c.jpg",
+      alt: "Домашний фуршетный стол с закусками"
     },
     {
-      alt: "Роскошная сервировка с многоярусными блюдами"
+      url: "https://cdn.poehali.dev/projects/f099cda9-30fa-4f15-a0a0-f6dbbe7636bb/files/a9f239fd-66b2-4d6a-9d39-2e5ae36a4b14.jpg",
+      alt: "Закуски и канапе на обычной посуде"
     },
     {
-      alt: "Десертный стол с пирожными"
+      url: "https://cdn.poehali.dev/projects/f099cda9-30fa-4f15-a0a0-f6dbbe7636bb/files/361882c2-0ac2-4f0b-923f-b1c5cb7501f3.jpg",
+      alt: "Фуршет на домашнем столе"
     }
   ];
 
@@ -95,13 +98,15 @@ const Index = () => {
             {galleryImages.map((image, index) => (
               <div 
                 key={index}
-                className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer animate-fade-in bg-muted flex items-center justify-center"
+                className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="text-center p-6">
-                  <Icon name="ImagePlus" size={48} className="text-muted-foreground/40 mx-auto mb-3" />
-                  <p className="text-muted-foreground text-sm">{image.alt}</p>
-                </div>
+                <img 
+                  src={image.url} 
+                  alt={image.alt}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
             ))}
           </div>
