@@ -35,8 +35,11 @@ const Index = () => {
         </nav>
       </header>
 
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-amber-50 to-background">
-        <div className="container mx-auto text-center max-w-4xl">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-amber-50 to-background relative overflow-hidden">
+        <div className="absolute top-10 left-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-40 right-20 w-40 h-40 bg-accent/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-1/3 w-36 h-36 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="container mx-auto text-center max-w-4xl relative z-10">
           <h2 className="text-5xl md:text-6xl font-heading font-bold text-foreground mb-6 animate-fade-in">
             Изысканные фуршеты для ваших мероприятий
           </h2>
@@ -55,8 +58,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-gradient-to-b from-orange-50 to-amber-50">
-        <div className="container mx-auto max-w-5xl">
+      <section id="about" className="py-20 px-4 bg-gradient-to-b from-orange-50 to-amber-50 relative overflow-hidden">
+        <div className="absolute top-20 right-10 w-48 h-48 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 left-10 w-40 h-40 bg-accent/10 rounded-full blur-3xl"></div>
+        <div className="container mx-auto max-w-5xl relative z-10">
           <h2 className="text-4xl font-heading font-bold text-center text-foreground mb-12">О нас</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow">
@@ -90,8 +95,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="gallery" className="py-20 px-4 bg-gradient-to-b from-background to-orange-50">
-        <div className="container mx-auto max-w-6xl">
+      <section id="gallery" className="py-20 px-4 bg-gradient-to-b from-background to-orange-50 relative overflow-hidden">
+        <div className="absolute top-10 left-1/4 w-52 h-52 bg-primary/8 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-1/4 w-44 h-44 bg-accent/8 rounded-full blur-3xl"></div>
+        <div className="container mx-auto max-w-6xl relative z-10">
           <h2 className="text-4xl font-heading font-bold text-center text-foreground mb-4">Фотогалерея</h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">Примеры оформления фуршетных столов</p>
           <div className="grid md:grid-cols-3 gap-6">
