@@ -35,7 +35,7 @@ const Index = () => {
         </nav>
       </header>
 
-      <section className="pt-32 pb-20 px-4">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-amber-50 to-background">
         <div className="container mx-auto text-center max-w-4xl">
           <h2 className="text-5xl md:text-6xl font-heading font-bold text-foreground mb-6 animate-fade-in">
             Изысканные фуршеты для ваших мероприятий
@@ -55,7 +55,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-muted/30">
+      <section id="about" className="py-20 px-4 bg-gradient-to-b from-orange-50 to-amber-50">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-heading font-bold text-center text-foreground mb-12">О нас</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -90,7 +90,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="gallery" className="py-20 px-4">
+      <section id="gallery" className="py-20 px-4 bg-gradient-to-b from-background to-orange-50">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl font-heading font-bold text-center text-foreground mb-4">Фотогалерея</h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">Примеры оформления фуршетных столов</p>
